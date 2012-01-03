@@ -1,0 +1,17 @@
+{
+    "name": "jonscaching/gpxreader",
+    "type": "library",
+    "description": "GPX file parser for PHP",
+    "keywords": ["gpx", "geocaching", "parser"],
+    "homepage": "http://www.jonscaching.com",
+    "license": "LGPL",
+    "authors": [
+        {"name": "Jon Townsend", "email": "jtownsend54@gmail.com"}
+    ],
+    "require": {
+        "php": ">=5.3.2",
+    },
+    "autoload": {
+        "psr-0": { "JonsCaching\\GpxReader": "lib/" }
+    }
+}
